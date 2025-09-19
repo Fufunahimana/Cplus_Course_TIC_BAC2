@@ -7,7 +7,7 @@ int somme(int a, int b) {
     return a + b;
 }
 
-// 2. Vérifier si un nombre est pair
+// 2. Verifier si un nombre est pair
 bool estPair(int n) {
     return n % 2 == 0;
 }
@@ -40,7 +40,7 @@ float moyenne(float a, float b, float c) {
     return (a + b + c) / 3;
 }
 
-// 7. Vérifier si un nombre est premier
+// 7. Verifier si un nombre est premier
 bool estPremier(int n) {
     if (n <= 1) return false;
     for (int i = 2; i <= sqrt(n); i++) {
@@ -78,7 +78,7 @@ int main(){
     // 4. Test echanger
     int x = 5, y = 10;
     echanger(x, y);
-    cout << "Après échange: x = " << x << ", y = " << y << endl;
+    cout << "Apres echange: x = " << x << ", y = " << y << endl;
 
     // 5. Test max3
     cout << "Le plus grand parmi 3, 7, 5: " << max3(3, 7, 5) << endl;
